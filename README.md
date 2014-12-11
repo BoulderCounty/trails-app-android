@@ -28,6 +28,9 @@ The app pulls data from the local KML file (/res/raw/new_7_24_2012.kml) so trail
 Warnings
 -----------
 
+This app is NOT being developed further by Boulder County and there are no currnet plans to update it.
+
+
 This app was written for Google Maps Android API v1. In order for the app to work going forward, it will need to be rewritten for v2.
 
 
