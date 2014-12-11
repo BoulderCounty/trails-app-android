@@ -7,9 +7,13 @@ What is it?
 The Boulder County Trails App provides a map and listing of many trails that Boulder County manages. The app shows 
 
 -Trail Length
+
 -Trail Difficulty
+
 -Parking Locations
+
 -Allowed Uses (dogs, bikes and horses)
+
 -Locate Me (see where you are on the trail)
 
 A working version of the app can be downloaded at https://play.google.com/store/apps/details?id=org.bouldercounty.parks.trails 
