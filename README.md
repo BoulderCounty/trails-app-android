@@ -22,16 +22,18 @@ A working version of the app can be downloaded at https://play.google.com/store/
 How It Works
 ------------------
 
-The app pulls data from the local KML file (/res/raw/new_7_24_2012.kml) so trail information can be displayed on the device even when the device is not connected to the internet.  
+The app pulls data from the local KML file (/res/raw/new_7_24_2012.kml) so trail information can be displayed on the device even when the device is not connected to the Internet.  
 
 
 Warnings
 -----------
 
-This app is NOT being developed further by Boulder County and there are no currnet plans to update it.
+This app is NOT being developed further by Boulder County and there are no current plans to update it.
 
 
 This app was written for Google Maps Android API v1. In order for the app to work going forward, it will need to be rewritten for v2.
+
+If you use this app, we ask that you please use your own images and colors to change the look and feel to distinguish it from the official Boulder County Trails app. 
 
 
 License
