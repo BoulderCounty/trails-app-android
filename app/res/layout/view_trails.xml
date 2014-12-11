@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/trail_list"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/rowb"
+>
+
+    <include layout="@layout/title_bar" />
+<RelativeLayout
+	android:id="@+id/main_list_content"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+
+	<ListView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:id="@+id/android:list"
+		android:listSelector="@android:color/transparent"
+		/>
+</RelativeLayout>
+
+<TextView
+    android:id="@id/android:empty"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:text="@string/empty_trail_view"
+    android:textColor="#000000" 
+    />
+</LinearLayout>

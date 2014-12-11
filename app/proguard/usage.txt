@@ -1,0 +1,105 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+org.bouldercounty.parks.trails.BalloonItemizedOverlay:
+    java.lang.String trailName
+    java.lang.String trailSystem
+    java.lang.String trailDistance
+    92:93:public void setBalloonBottomOffset(int)
+org.bouldercounty.parks.trails.BalloonOverlayView:
+    android.view.View v
+org.bouldercounty.parks.trails.BoulderCountyApplication:
+    private android.location.Location currentLocation
+    public org.bouldercounty.parks.trails.data.Document kmlDocument
+    public org.bouldercounty.parks.trails.data.Folder rootFolder
+    public static boolean isSatellite
+    68:68:public android.location.Location getCurrentLocation()
+    72:73:public void setCurrentLocation(android.location.Location)
+    76:77:public void setUpdatesOn(boolean)
+    80:80:public boolean isUpdatesOn()
+    241:247:private java.lang.String cleanData(java.lang.String)
+org.bouldercounty.parks.trails.BoulderCountyMap:
+    java.util.List coordinates
+    boolean lastOne
+    java.util.List path
+    com.google.android.maps.GeoPoint firstPoint
+    com.google.android.maps.GeoPoint lastPoint
+    boolean isSatellite
+org.bouldercounty.parks.trails.BoulderCountyMap$MyItemizedOverlay:
+    721:726:public void clear()
+    733:751:public void addOverlayList(java.util.List)
+org.bouldercounty.parks.trails.BoulderCountyTrailList:
+    public static final java.lang.String tag
+    android.location.Location currentLocation
+    java.lang.String selectedProvider
+org.bouldercounty.parks.trails.BuildConfig
+org.bouldercounty.parks.trails.R
+org.bouldercounty.parks.trails.R$attr
+org.bouldercounty.parks.trails.R$color
+org.bouldercounty.parks.trails.R$drawable
+org.bouldercounty.parks.trails.R$id
+org.bouldercounty.parks.trails.R$layout
+org.bouldercounty.parks.trails.R$raw
+org.bouldercounty.parks.trails.R$string
+org.bouldercounty.parks.trails.TrailUpdatesWebActivity:
+    android.webkit.WebView webview
+org.bouldercounty.parks.trails.data.Document:
+    19:22:public Document(java.util.List,java.util.List)
+    25:25:public java.util.List getFolders()
+    31:32:public void addFolder(org.bouldercounty.parks.trails.data.Folder)
+    34:37:public void addFolders(java.util.List)
+    39:39:public java.util.List getPlacemarks()
+    45:46:public void addPlacemark(org.bouldercounty.parks.trails.data.Placemark)
+    48:51:public void addPlacemarks(java.util.List)
+    54:54:public java.lang.String getName()
+org.bouldercounty.parks.trails.data.Folder:
+    public static boolean allProcessed
+    public boolean processed
+    boolean isATrail
+    public double distanceFromCurrentLocation
+    50:54:public Folder(java.lang.String,java.util.List,java.util.List)
+    117:117:public java.util.List getFolderPlacemarks()
+    124:125:public void setPlacemarks(java.util.List)
+    170:171:public static void resetTrailList()
+    174:175:public static boolean hasTrails()
+    220:221:public static void setTrailName(org.bouldercounty.parks.trails.data.Folder,java.lang.String)
+    224:227:public static void setTrailName(java.util.List,java.lang.String)
+    231:240:private static double[] getMarkerCoordinates(java.util.List)
+    244:266:public static boolean isInBounds(org.bouldercounty.parks.trails.data.Folder,int,int,com.google.android.maps.GeoPoint)
+    271:271:public static int[] getMapLatMinMax(int[],com.google.android.maps.GeoPoint)
+    275:275:public static int[] getMapLatMinMax(int,com.google.android.maps.GeoPoint)
+    280:280:public static int[] getMapLonMinMax(int[],com.google.android.maps.GeoPoint)
+    284:284:public static int[] getMapLonMinMax(int,com.google.android.maps.GeoPoint)
+    288:288:public static int[] getLatLonToCompare(double[])
+org.bouldercounty.parks.trails.data.Placemark:
+    public static java.util.List trailUses
+    public org.bouldercounty.parks.trails.data.Folder parentFolder
+    public boolean isATrail
+    39:43:public Placemark(java.lang.String,java.lang.String,java.lang.String)
+    46:46:public java.lang.String getId()
+    59:59:public java.lang.String getDescription()
+    117:117:public static java.util.List getTrailUses()
+org.bouldercounty.parks.trails.data.SortType:
+    public static int[] sortType
+    4:4:public SortType()
+org.bouldercounty.parks.trails.data.Trail
+org.bouldercounty.parks.trails.data.TrailAddressMap
+org.bouldercounty.parks.trails.data.TrailListAdapter:
+    121:122:public void forceReload()
+    125:127:public void clear()
+    135:138:public void setTrailList(java.util.List)
+    141:142:public void setContext(android.content.Context)
+org.bouldercounty.parks.trails.data.TrailListItem:
+    private org.bouldercounty.parks.trails.data.Folder trail
+    29:29:public org.bouldercounty.parks.trails.data.Folder getTrail()
+org.bouldercounty.parks.trails.data.TrailUsesObject
+org.bouldercounty.parks.trails.map.MyOwnLocationOverlay:
+    public static final java.lang.String tag
+org.bouldercounty.parks.trails.map.RoutePathOverlay:
+    private boolean _drawStartEnd
+    com.google.android.maps.GeoPoint gPointA
+    198:198:public boolean getDrawStartEnd()
+    202:203:public void setDrawStartEnd(boolean)
+org.bouldercounty.parks.trails.utilities.Constants:
+    9:9:public Constants()
+org.bouldercounty.parks.trails.utilities.XMLSaxParser:
+    16:16:public XMLSaxParser()

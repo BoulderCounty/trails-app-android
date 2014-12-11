@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent"
+    android:orientation="vertical"
+  	>
+<!-- 	    android:layout_gravity="center_horizontal|center_vertical" -->
+    	<LinearLayout 
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="70dp"
+	    android:orientation="horizontal"
+	    android:gravity="center_horizontal"
+	    android:background="@drawable/header"
+  	>
+
+  	<Button
+  	    android:id="@+id/select_locate_me"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_marginTop="3dp"
+  	    android:minHeight="64dp"
+  	    android:minWidth="110dp"
+  	    android:background="@drawable/map_type_selector_large"
+  	    android:text="Locate Me" 
+    	android:textSize="20dp"
+  	    android:textColor="#ffffff"
+  	    android:layout_marginRight="2dp"
+  	    />
+
+  	<Button
+  	    android:id="@+id/select_map_type"
+  	    android:layout_width="wrap_content"
+  	    android:layout_height="wrap_content"
+  	    android:layout_marginTop="3dp"
+  	    android:minHeight="64dp"
+  	    android:minWidth="110dp"
+  	    android:background="@drawable/map_type_selector_large"
+  	    android:text="Map Type" 
+    	android:textSize="20dp"
+  	    android:textColor="#ffffff"
+  	    android:layout_marginLeft="2dp"
+  	    />
+
+<!--   	
+  	    android:background="@drawable/roundback"
+ 	    android:background="@drawable/map_type_gradient"
+-->
+  	
+  	</LinearLayout>
+    <com.google.android.maps.MapView
+    	android:id="@+id/trail_map" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp" 
+    	android:clickable="true"
+    	android:layout_marginTop="0dip"
+    	android:apiKey="@string/map_key" 
+    	android:layout_weight="10"
+    />
+    <RelativeLayout
+ 	  	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+ 		android:gravity="center"
+        >
+ 	<TextView 
+ 	  	android:id="@+id/my_location" 
+ 	  	android:layout_width="fill_parent"
+      	android:layout_height="wrap_content"
+    	android:singleLine="true"
+    	android:scrollHorizontally="true"
+    	android:ellipsize="marquee"
+    	android:marqueeRepeatLimit="marquee_forever"
+    	android:background="#000000"
+    	android:textColor="#ffffff"
+    	android:textSize="25dp"
+    	android:text="Your Location:   Lat:  000.000000  Long:  000.000000"
+    />
+    </RelativeLayout>
+</LinearLayout>

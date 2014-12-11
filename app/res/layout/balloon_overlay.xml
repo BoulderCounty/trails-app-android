@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal" 
+	android:paddingBottom="30dip"
+	android:paddingLeft="10dip" 
+	android:id="@+id/balloon_main_layout"
+	android:background="@drawable/balloon_overlay_unfocused"
+	android:paddingTop="1dip"
+	android:paddingRight="1dip">
+
+<!-- 	android:background="@drawable/balloon_overlay_bg_selector"  -->
+
+	<LinearLayout 
+		android:layout_width="0dp" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+		android:layout_weight="1"
+		android:paddingTop="10dip" 
+		android:paddingRight="5dip" 
+		android:id="@+id/balloon_inner_layout">
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" 
+			android:id="@+id/balloon_item_title"
+			android:text="@string/balloon_title" 
+			android:textStyle="bold"
+			android:textColor="#FF000000"></TextView>
+	<LinearLayout 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+	>
+			<TextView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" 
+			android:id="@+id/balloon_item_snippet"
+			android:text="@string/balloon_snippet" 
+			android:textColor="#000000"
+			>
+		    
+		</TextView>
+		</LinearLayout>
+	<LinearLayout
+	    android:id="@+id/use"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:orientation="horizontal" 
+        android:visibility="visible"
+		    >
+	<ImageView
+	    android:id="@+id/horse"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/listhorsebubble"
+		android:layout_marginLeft="3dp"
+        android:visibility="visible"
+	    />
+
+    <ImageView
+	    android:id="@+id/hiker"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/listhikerbubble"
+	    android:layout_toRightOf="@id/horse"
+		android:layout_marginLeft="3dp"
+		android:layout_marginTop="3dp"
+        android:visibility="visible"
+	    />
+
+	<ImageView
+	    android:id="@+id/bike"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/listbikebubble"
+	    android:layout_toRightOf="@id/hiker"
+		android:layout_marginLeft="3dp"
+		android:layout_marginTop="18dp"
+        android:visibility="visible"
+	    />
+
+	<ImageView
+	    android:id="@+id/dog"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/listdogbubble"
+	    android:layout_toRightOf="@id/bike"
+		android:layout_marginLeft="3dp"
+		android:layout_marginTop="11dp"
+        android:visibility="visible"
+	    />
+	</LinearLayout>
+		</LinearLayout>
+	
+	<ImageView 
+		android:id="@+id/view_trails_btn" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:src="@drawable/arrow"
+		android:padding="12dip"
+		android:layout_gravity="center_vertical"
+		android:visibility="visible"
+		>
+	</ImageView>
+
+</LinearLayout>

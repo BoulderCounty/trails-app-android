@@ -1,0 +1,444 @@
+org.bouldercounty.parks.trails.AboutBoulderCountyActivity -> org.bouldercounty.parks.trails.AboutBoulderCountyActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+org.bouldercounty.parks.trails.AboutBoulderCountyActivity$1 -> org.bouldercounty.parks.trails.a:
+    org.bouldercounty.parks.trails.AboutBoulderCountyActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BalloonItemizedOverlay -> org.bouldercounty.parks.trails.b:
+    java.lang.String tag -> a
+    com.google.android.maps.MapView mapView -> h
+    org.bouldercounty.parks.trails.BalloonOverlayView balloonView -> i
+    android.view.View clickRegion -> j
+    int viewOffset -> k
+    com.google.android.maps.MapController mc -> b
+    com.google.android.maps.OverlayItem currentFocussedItem -> l
+    int currentFocussedIndex -> m
+    org.bouldercounty.parks.trails.data.Folder folder -> c
+    org.bouldercounty.parks.trails.data.Placemark pm -> d
+    boolean isMapAll -> e
+    boolean isParking -> f
+    java.util.List pmList -> g
+    boolean onBalloonTap$830ad1c() -> a
+    boolean onTap(int) -> onTap
+    void hideBalloon() -> c
+    com.google.android.maps.OverlayItem getFocus() -> getFocus
+    void setFocus(com.google.android.maps.OverlayItem) -> setFocus
+    boolean removeBalloonOverlay() -> b
+    com.google.android.maps.OverlayItem createItem(int) -> createItem
+    int size() -> size
+    int access$0(org.bouldercounty.parks.trails.BalloonItemizedOverlay) -> a
+    com.google.android.maps.OverlayItem access$1(org.bouldercounty.parks.trails.BalloonItemizedOverlay) -> b
+org.bouldercounty.parks.trails.BalloonItemizedOverlay$1 -> org.bouldercounty.parks.trails.c:
+    org.bouldercounty.parks.trails.BalloonItemizedOverlay this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+org.bouldercounty.parks.trails.BalloonOverlayView -> org.bouldercounty.parks.trails.d:
+    java.lang.String tag -> a
+    android.widget.LinearLayout layout -> f
+    android.widget.TextView title -> g
+    android.widget.TextView snippet -> h
+    org.bouldercounty.parks.trails.data.Folder folder -> b
+    org.bouldercounty.parks.trails.data.Placemark placemark -> c
+    org.bouldercounty.parks.trails.BoulderCountyApplication app -> d
+    android.content.Context context -> e
+    void setData(com.google.android.maps.OverlayItem) -> a
+    java.lang.String toString() -> toString
+org.bouldercounty.parks.trails.BalloonOverlayView$1 -> org.bouldercounty.parks.trails.e:
+    org.bouldercounty.parks.trails.BalloonOverlayView this$0 -> a
+    org.bouldercounty.parks.trails.data.Placemark val$pm -> b
+    org.bouldercounty.parks.trails.data.Folder val$folder -> c
+    android.content.Context val$context -> d
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BalloonOverlayView$2 -> org.bouldercounty.parks.trails.f:
+    org.bouldercounty.parks.trails.BalloonOverlayView this$0 -> a
+    org.bouldercounty.parks.trails.data.Placemark val$pm -> b
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BalloonOverlayView$3 -> org.bouldercounty.parks.trails.g:
+    org.bouldercounty.parks.trails.BalloonOverlayView this$0 -> a
+    org.bouldercounty.parks.trails.data.Placemark val$pm -> b
+    org.bouldercounty.parks.trails.data.Folder val$folder -> c
+    android.content.Context val$context -> d
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BoulderCounty -> org.bouldercounty.parks.trails.BoulderCounty:
+    java.lang.String tag -> a
+    org.bouldercounty.parks.trails.BoulderCountyApplication app -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    java.lang.Object onRetainNonConfigurationInstance() -> onRetainNonConfigurationInstance
+    void access$0(org.bouldercounty.parks.trails.BoulderCounty) -> a
+    void access$1(org.bouldercounty.parks.trails.BoulderCounty) -> b
+org.bouldercounty.parks.trails.BoulderCounty$1 -> org.bouldercounty.parks.trails.h:
+    org.bouldercounty.parks.trails.BoulderCounty this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BoulderCounty$2 -> org.bouldercounty.parks.trails.i:
+    org.bouldercounty.parks.trails.BoulderCounty this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BoulderCounty$3 -> org.bouldercounty.parks.trails.j:
+    org.bouldercounty.parks.trails.BoulderCounty this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BoulderCounty$4 -> org.bouldercounty.parks.trails.k:
+    org.bouldercounty.parks.trails.BoulderCounty this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BoulderCountyApplication -> org.bouldercounty.parks.trails.BoulderCountyApplication:
+    java.lang.String tag -> a
+    boolean updatesOn -> h
+    java.util.List allGeoPoints -> b
+    org.bouldercounty.parks.trails.data.Folder currentFolder -> c
+    java.util.List trailList -> d
+    java.util.List trailPlacemarkList -> e
+    java.lang.String selectedTrail -> f
+    boolean isMapAll -> g
+    void onCreate() -> onCreate
+    void setCurrentFolder(org.bouldercounty.parks.trails.data.Folder) -> a
+    org.bouldercounty.parks.trails.data.Folder getCurrentFolder() -> a
+    java.util.List getTrailList() -> b
+    void setTrailList(java.util.List) -> a
+    java.lang.String cleanPoints(java.lang.String) -> a
+org.bouldercounty.parks.trails.BoulderCountyApplication$GetAllOverlays -> org.bouldercounty.parks.trails.l:
+    org.bouldercounty.parks.trails.BoulderCountyApplication this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.lang.Void doInBackground$10299ca() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+org.bouldercounty.parks.trails.BoulderCountyApplication$ParseTrailsTask -> org.bouldercounty.parks.trails.m:
+    org.bouldercounty.parks.trails.BoulderCountyApplication this$0 -> a
+    java.util.List doInBackground$528b683() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+org.bouldercounty.parks.trails.BoulderCountyMap -> org.bouldercounty.parks.trails.BoulderCountyMap:
+    java.lang.String tag -> a
+    boolean viewSet -> o
+    org.bouldercounty.parks.trails.map.RoutePathOverlay routePathOverlay -> p
+    org.bouldercounty.parks.trails.BoulderCountyApplication app -> q
+    android.location.LocationManager manager -> b
+    android.location.Location currentLocation -> c
+    com.google.android.maps.MapController mc -> d
+    boolean displayLocation -> r
+    boolean mapAll -> s
+    android.graphics.drawable.Drawable parkingMarker -> e
+    android.graphics.drawable.Drawable trailheadMarker -> f
+    com.google.android.maps.GeoPoint centerPoint -> g
+    org.bouldercounty.parks.trails.map.MyOwnLocationOverlay mMyLocationOverlay -> t
+    org.bouldercounty.parks.trails.data.Folder currentFolder -> h
+    java.util.List trailsToDraw -> i
+    java.lang.String[] spm -> j
+    boolean isDrawing -> k
+    boolean fromList -> u
+    java.util.Timer timer -> l
+    int maxMetersForCircle -> m
+    int framesPerSecond -> v
+    int timeOfCircleShrinkAnimationInMillieseconds -> w
+    int fireRateForCircleTimer -> x
+    int currentZoom -> n
+    android.location.LocationListener listener -> y
+    void onCreate(android.os.Bundle) -> onCreate
+    void setupViews() -> b
+    void drawTrails() -> a
+    boolean isLocationDisplayed() -> isLocationDisplayed
+    boolean isRouteDisplayed() -> isRouteDisplayed
+    void onBackPressed() -> onBackPressed
+    void onResume() -> onResume
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    java.lang.Object onRetainNonConfigurationInstance() -> onRetainNonConfigurationInstance
+    void setMyLocation(double,double) -> a
+    void onPause() -> onPause
+    double[] getMarkerCoordinates(java.util.List) -> b
+    java.lang.String cleanPoints(java.lang.String) -> a
+    int addParking(org.bouldercounty.parks.trails.data.Folder,java.util.List) -> a
+    int addTrailhead(org.bouldercounty.parks.trails.data.Folder,java.util.List) -> b
+    int getRoutePaths$5906c4a5(org.bouldercounty.parks.trails.data.Folder,int) -> a
+    void access$0(org.bouldercounty.parks.trails.BoulderCountyMap,double,double) -> a
+    org.bouldercounty.parks.trails.BoulderCountyApplication access$1(org.bouldercounty.parks.trails.BoulderCountyMap) -> a
+    void access$2(org.bouldercounty.parks.trails.BoulderCountyMap,org.bouldercounty.parks.trails.map.RoutePathOverlay) -> a
+    int access$3$14b62d3e(org.bouldercounty.parks.trails.BoulderCountyMap,org.bouldercounty.parks.trails.data.Folder,int) -> a
+    int access$4(org.bouldercounty.parks.trails.BoulderCountyMap,org.bouldercounty.parks.trails.data.Folder,java.util.List) -> a
+    int access$5(org.bouldercounty.parks.trails.BoulderCountyMap,org.bouldercounty.parks.trails.data.Folder,java.util.List) -> b
+    org.bouldercounty.parks.trails.map.RoutePathOverlay access$6(org.bouldercounty.parks.trails.BoulderCountyMap) -> b
+    int access$7(org.bouldercounty.parks.trails.BoulderCountyMap) -> c
+    int access$8(org.bouldercounty.parks.trails.BoulderCountyMap) -> d
+    double[] access$9$147b3ae0(java.util.List) -> a
+    double access$10(org.bouldercounty.parks.trails.BoulderCountyMap,double,double) -> b
+    org.bouldercounty.parks.trails.map.MyOwnLocationOverlay access$11(org.bouldercounty.parks.trails.BoulderCountyMap) -> e
+org.bouldercounty.parks.trails.BoulderCountyMap$1 -> org.bouldercounty.parks.trails.n:
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> a
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+org.bouldercounty.parks.trails.BoulderCountyMap$2 -> org.bouldercounty.parks.trails.o:
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> a
+    void onClick(android.view.View) -> onClick
+    org.bouldercounty.parks.trails.BoulderCountyMap access$0(org.bouldercounty.parks.trails.BoulderCountyMap$2) -> a
+org.bouldercounty.parks.trails.BoulderCountyMap$2$1 -> org.bouldercounty.parks.trails.p:
+    com.google.android.maps.GeoPoint gp -> a
+    org.bouldercounty.parks.trails.BoulderCountyMap$2 this$1 -> b
+    void run() -> run
+org.bouldercounty.parks.trails.BoulderCountyMap$2$1$1 -> org.bouldercounty.parks.trails.q:
+    org.bouldercounty.parks.trails.BoulderCountyMap$2$1 this$2 -> a
+    void run() -> run
+org.bouldercounty.parks.trails.BoulderCountyMap$3 -> org.bouldercounty.parks.trails.r:
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> a
+    void onClick(android.view.View) -> onClick
+    org.bouldercounty.parks.trails.BoulderCountyMap access$0(org.bouldercounty.parks.trails.BoulderCountyMap$3) -> a
+org.bouldercounty.parks.trails.BoulderCountyMap$3$1 -> org.bouldercounty.parks.trails.s:
+    com.google.android.maps.GeoPoint gp -> a
+    org.bouldercounty.parks.trails.BoulderCountyMap$3 this$1 -> b
+    void run() -> run
+org.bouldercounty.parks.trails.BoulderCountyMap$3$1$1 -> org.bouldercounty.parks.trails.t:
+    org.bouldercounty.parks.trails.BoulderCountyMap$3$1 this$2 -> a
+    void run() -> run
+org.bouldercounty.parks.trails.BoulderCountyMap$4 -> org.bouldercounty.parks.trails.u:
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.BoulderCountyMap$5 -> org.bouldercounty.parks.trails.v:
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.bouldercounty.parks.trails.BoulderCountyMap$6 -> org.bouldercounty.parks.trails.w:
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.bouldercounty.parks.trails.BoulderCountyMap$DrawTrailRoute -> org.bouldercounty.parks.trails.x:
+    android.app.ProgressDialog routeDialog -> b
+    java.util.List markerOverlays -> c
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> a
+    void onPreExecute() -> onPreExecute
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+org.bouldercounty.parks.trails.BoulderCountyMap$MyItemizedOverlay -> org.bouldercounty.parks.trails.y:
+    java.lang.String title -> h
+    java.lang.String snippet -> i
+    java.util.List mOverlays -> k
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> j
+    void addOverlayItem(int,int,java.lang.String,java.lang.String,android.graphics.drawable.Drawable,org.bouldercounty.parks.trails.data.Placemark) -> a
+    boolean onTouchEvent(android.view.MotionEvent,com.google.android.maps.MapView) -> onTouchEvent
+    com.google.android.maps.OverlayItem createItem(int) -> createItem
+    int size() -> size
+    boolean onBalloonTap$830ad1c() -> a
+    boolean onTap(com.google.android.maps.GeoPoint,com.google.android.maps.MapView) -> onTap
+    void doPopulate() -> c
+    java.lang.String toString() -> toString
+org.bouldercounty.parks.trails.BoulderCountyMap$MyTimerTask -> org.bouldercounty.parks.trails.z:
+    int smallestCircleMeters -> a
+    int largestCircleMeters -> b
+    int distanceToShrink -> c
+    int count -> d
+    float numberOfSeconds -> e
+    int maxCount -> f
+    float distanceToShrinkEachIteration -> g
+    int metersForCircle -> h
+    int zoomLevel -> i
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> j
+    void run() -> run
+org.bouldercounty.parks.trails.BoulderCountyMap$newDrawAll -> org.bouldercounty.parks.trails.aa:
+    java.util.List markerOverlays -> b
+    android.app.ProgressDialog allTrailsDialog -> c
+    org.bouldercounty.parks.trails.BoulderCountyMap this$0 -> a
+    void onPreExecute() -> onPreExecute
+    java.util.List doInBackground$68cf9880() -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onProgressUpdate(java.lang.Object[]) -> onProgressUpdate
+org.bouldercounty.parks.trails.BoulderCountySplashScreen -> org.bouldercounty.parks.trails.BoulderCountySplashScreen:
+    long ms -> b
+    boolean splashActive -> c
+    boolean paused -> d
+    org.bouldercounty.parks.trails.BoulderCountyApplication app -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    java.lang.Object onRetainNonConfigurationInstance() -> onRetainNonConfigurationInstance
+    boolean access$0(org.bouldercounty.parks.trails.BoulderCountySplashScreen) -> a
+    boolean access$1(org.bouldercounty.parks.trails.BoulderCountySplashScreen) -> b
+    long access$2(org.bouldercounty.parks.trails.BoulderCountySplashScreen) -> c
+    void access$3(org.bouldercounty.parks.trails.BoulderCountySplashScreen,long) -> a
+org.bouldercounty.parks.trails.BoulderCountySplashScreen$1 -> org.bouldercounty.parks.trails.ab:
+    org.bouldercounty.parks.trails.BoulderCountySplashScreen this$0 -> a
+    void run() -> run
+org.bouldercounty.parks.trails.BoulderCountyTrailList -> org.bouldercounty.parks.trails.BoulderCountyTrailList:
+    org.bouldercounty.parks.trails.BoulderCountyApplication app -> a
+    org.bouldercounty.parks.trails.data.TrailListAdapter adapter -> c
+    org.bouldercounty.parks.trails.data.Folder lastSelection -> d
+    android.location.LocationManager manager -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> a
+    void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
+    void onResume() -> onResume
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    java.lang.Object onRetainNonConfigurationInstance() -> onRetainNonConfigurationInstance
+    void onPause() -> onPause
+    void hideSpinner(boolean) -> a
+org.bouldercounty.parks.trails.TrailUpdatesWebActivity -> org.bouldercounty.parks.trails.TrailUpdatesWebActivity:
+    java.lang.String tag -> a
+    android.webkit.WebViewClient mClient -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void setupViews() -> a
+    void onResume() -> onResume
+    void hideSpinner(boolean) -> a
+    void access$0(org.bouldercounty.parks.trails.TrailUpdatesWebActivity) -> a
+org.bouldercounty.parks.trails.TrailUpdatesWebActivity$1 -> org.bouldercounty.parks.trails.ac:
+    org.bouldercounty.parks.trails.TrailUpdatesWebActivity this$0 -> a
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+org.bouldercounty.parks.trails.TrailUpdatesWebActivity$2 -> org.bouldercounty.parks.trails.ad:
+    org.bouldercounty.parks.trails.TrailUpdatesWebActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+org.bouldercounty.parks.trails.data.Document -> org.bouldercounty.parks.trails.data.a:
+    java.util.List folders -> a
+    java.util.List placemarks -> b
+    java.lang.String name -> c
+    void setFolders(java.util.List) -> a
+    void setPlacemarks(java.util.List) -> b
+    java.lang.String toString() -> toString
+    java.lang.String printFolderList(java.util.List) -> c
+    java.lang.String printPlacemarkList(java.util.List) -> d
+org.bouldercounty.parks.trails.data.Folder -> org.bouldercounty.parks.trails.data.b:
+    java.lang.String tag -> a
+    java.lang.String name -> b
+    java.util.List folders -> c
+    java.util.List placemarks -> d
+    java.util.Map trailsMap -> e
+    java.util.List trailList -> f
+    org.bouldercounty.parks.trails.data.Folder parentFolder -> g
+    boolean isTrailSystem -> h
+    java.util.Map pairFolders -> i
+    boolean pairFolder -> j
+    boolean alreadyMapped -> k
+    boolean isSelected -> l
+    java.lang.String trailSystemName -> m
+    java.util.List parkingList -> n
+    java.util.List trailheadList -> o
+    int sortType -> p
+    java.lang.String getName() -> a
+    void setName(java.lang.String) -> a
+    java.util.List getFolders() -> b
+    void addFolders(java.util.List) -> a
+    java.util.List getPlacemarks() -> c
+    void addPlacemarks(java.util.List) -> b
+    java.lang.String toString() -> toString
+    java.lang.String printFolders(java.util.List) -> c
+    java.util.List getTrailList() -> d
+    int sortByDogUse(org.bouldercounty.parks.trails.data.Folder) -> a
+    int sortByBikeUse(org.bouldercounty.parks.trails.data.Folder) -> b
+    int sortByHikeUse(org.bouldercounty.parks.trails.data.Folder) -> c
+    int sortByHorseUse(org.bouldercounty.parks.trails.data.Folder) -> d
+    int sortByTrailName(org.bouldercounty.parks.trails.data.Folder) -> e
+    int sortByTrailSystemName(org.bouldercounty.parks.trails.data.Folder) -> f
+    int sortByDifficulty(org.bouldercounty.parks.trails.data.Folder) -> g
+    int compareTo(java.lang.Object) -> compareTo
+org.bouldercounty.parks.trails.data.Placemark -> org.bouldercounty.parks.trails.data.c:
+    java.lang.String tag -> a
+    java.lang.String id -> b
+    java.lang.String name -> c
+    java.lang.String description -> d
+    java.util.List coordinates -> e
+    boolean isParking -> f
+    boolean hike -> g
+    boolean horse -> h
+    boolean bike -> i
+    boolean dog -> j
+    java.lang.String trailDistance -> k
+    java.lang.String trailName -> l
+    java.lang.String parkingAddress -> m
+    java.lang.String extraDescription -> n
+    java.lang.String trailDifficulty -> o
+    void setId(java.lang.String) -> a
+    java.lang.String getName() -> a
+    void setName(java.lang.String) -> b
+    void setDescription(java.lang.String) -> c
+    java.util.List getCoordinates() -> b
+    void addCoordinates(java.util.List) -> a
+    java.lang.String toString() -> toString
+    java.lang.String printPlacemarks(java.util.List) -> b
+    java.lang.String printCoordinates() -> c
+    int compareTo(org.bouldercounty.parks.trails.data.Placemark) -> a
+    int compareTo(java.lang.Object) -> compareTo
+org.bouldercounty.parks.trails.data.SortType -> org.bouldercounty.parks.trails.data.d:
+    int _default -> a
+    int trailName -> b
+    int trailSystemName -> c
+    int distance -> d
+    int difficulty -> e
+    int dog -> f
+    int bike -> g
+    int hike -> h
+    int horse -> i
+org.bouldercounty.parks.trails.data.TrailListAdapter -> org.bouldercounty.parks.trails.data.e:
+    java.lang.String tag -> a
+    java.util.List trailList -> c
+    android.content.Context context -> d
+    android.view.LayoutInflater mInflater -> e
+    int selectedItem -> b
+    int getCount() -> getCount
+    org.bouldercounty.parks.trails.data.Folder getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void sort() -> a
+    java.lang.Object getItem(int) -> getItem
+org.bouldercounty.parks.trails.data.TrailListAdapter$ViewHolder -> org.bouldercounty.parks.trails.data.f:
+    android.widget.TextView trailSystem -> a
+    android.widget.TextView trailName -> b
+    android.widget.TextView trailDistance -> c
+    android.widget.TextView trailDifficulty -> d
+    android.widget.ImageView hikeImage -> e
+    android.widget.ImageView bikeImage -> f
+    android.widget.ImageView dogImage -> g
+    android.widget.ImageView horseImage -> h
+org.bouldercounty.parks.trails.data.TrailListItem -> org.bouldercounty.parks.trails.data.TrailListItem:
+    java.lang.String tag -> a
+    void onFinishInflate() -> onFinishInflate
+org.bouldercounty.parks.trails.map.MyOwnLocationOverlay -> org.bouldercounty.parks.trails.a.a:
+    com.google.android.maps.MapView mapView -> a
+    android.graphics.Paint circlePainter -> b
+    android.graphics.Point screenCurrentPoint -> c
+    com.google.android.maps.GeoPoint geoCurrentPoint -> d
+    int meters -> e
+    void setMeters(int) -> a
+    boolean draw(android.graphics.Canvas,com.google.android.maps.MapView,boolean,long) -> draw
+org.bouldercounty.parks.trails.map.RoutePathOverlay -> org.bouldercounty.parks.trails.a.b:
+    java.lang.String tag -> a
+    boolean sizePrinted -> b
+    android.graphics.Paint paint -> c
+    android.graphics.Path path -> d
+    android.graphics.Point pointA -> e
+    java.util.ArrayList listOfPaths -> f
+    void addNewPathWithColor(java.util.List,int) -> a
+    void draw(android.graphics.Canvas,com.google.android.maps.MapView,boolean) -> draw
+org.bouldercounty.parks.trails.utilities.Constants -> org.bouldercounty.parks.trails.b.a:
+    java.lang.String MAP_POINTS_CONSTANT -> a
+    java.lang.String MAP_TRAIL_CONSTANT -> b
+    java.lang.String MAP_TYPE_DESCRIPTION -> c
+    int MAP_TYPE_REQUEST_CODE -> d
+    int MAP_TYPE_PREVIOUS -> e
+    int MAP_TYPE_NORMAL -> f
+    int MAP_TYPE_SATELLITE -> g
+    void showAlert$62dc3a79(android.content.Context,java.lang.String) -> a
+org.bouldercounty.parks.trails.utilities.Constants$1 -> org.bouldercounty.parks.trails.b.b:
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.bouldercounty.parks.trails.utilities.XMLSaxHandler -> org.bouldercounty.parks.trails.b.c:
+    java.lang.String tag -> a
+    boolean in_placemarktag -> d
+    boolean in_documentnametag -> e
+    boolean in_foldernametag -> f
+    boolean in_placemarknametag -> g
+    boolean in_coordinatestag -> h
+    boolean in_addresstag -> i
+    boolean in_descriptiontag -> j
+    boolean in_documenttag -> k
+    boolean in_foldertag -> l
+    java.util.List folderStack -> m
+    java.util.List tmpStringList -> n
+    org.bouldercounty.parks.trails.data.Document kmlDocument -> b
+    java.util.List folders -> o
+    org.bouldercounty.parks.trails.data.Folder folder -> p
+    java.util.List folderDataPlacemarks -> q
+    java.util.List docDataPlacemarks -> r
+    org.bouldercounty.parks.trails.data.Placemark dpm -> c
+    org.bouldercounty.parks.trails.data.Document getParsedData() -> a
+    void startDocument() -> startDocument
+    void endDocument() -> endDocument
+    void startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes) -> startElement
+    void endElement(java.lang.String,java.lang.String,java.lang.String) -> endElement
+    void characters(char[],int,int) -> characters
+    boolean parseDescription(java.lang.String,org.bouldercounty.parks.trails.data.Placemark) -> a
+org.bouldercounty.parks.trails.utilities.XMLSaxParser -> org.bouldercounty.parks.trails.b.d:
+    org.bouldercounty.parks.trails.data.Document getParsedData(java.lang.String) -> a

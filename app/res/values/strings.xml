@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BC Trails</string>
+    <string name="list_default">loading</string>
+    <string name="empty_trail_view">no parks found</string>
+    <string name="map_key">Your-Android-Maps-API-Goes-Here</string>
+<!--     <string name="show_map"> Map</string> -->
+<!--     <string name="show_updates"> Updates</string> -->
+<!--     <string name="location_on_off">Turn On/Off Location Service</string> -->
+<!--     <string name="your_current_lat">Lat:</string> -->
+<!--     <string name="your_current_lon">Long:</string> -->
+    <string name="list_header">Trail List</string>
+    <string name="twitter_header">Trail Updates</string>
+    <string name="your_current_location">Your Location:</string>
+    <string name="balloon_title">trail name of parking marker overlay</string>
+    <string name="balloon_distance">trail distance</string> <!-- not being used! -->
+    <string name="balloon_snippet">Parking</string>
+    <string name="betasso_alert_title">important Trail Use Message</string>
+    <string name="betasso_alert_message">Bikes are prohibited at Betasso on Wednesdays and Saturdays (except Betasso Link Trail).</string>
+    <string name="locate_me">Locate Me</string>
+    <string name="satellite_view">Satellite View</string>
+
+</resources>
+<!--     <string name="balloon_snippet">distance, difficulty, trail system name</string> -->

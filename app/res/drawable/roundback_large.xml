@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+  android:shape="rectangle">
+  <solid
+     android:color="#536878"
+  />
+  <!-- #536878 (Dark Electric Blue) is perfect -->
+  <corners
+    android:radius="5dip"
+  />
+  <stroke
+     android:width="3dip"
+     android:color="#778899"
+  />
+</shape>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/header"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+        android:id="@+id/select_locate_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:clickable="true"
+        android:minHeight="34dp"
+	    android:minWidth="80dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="4dp"
+            >
+<!--                     android:background="@drawable/roundback" -->
+        <ImageButton
+            android:id="@+id/locate_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:background="@drawable/location_searching"
+            />
+
+        <TextView 
+            android:id="@+id/locate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/locate_me"
+            android:textColor="#ffffff" 
+            android:layout_toRightOf="@id/locate_image"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            />
+        </RelativeLayout>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/satellite_view" 
+            android:textSize="14dp"
+            />
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        android:layout_weight="0.97" 
+        >
+
+        <FrameLayout
+            android:id="@+id/trail_uses"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            >
+
+    <com.google.android.maps.MapView
+                android:id="@+id/trail_map"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="0dip"
+                android:layout_weight="10"
+                android:apiKey="@string/map_key"
+                android:clickable="true" 
+	        	android:visibility="visible"
+                />
+    </FrameLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:id="@+id/my_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:singleLine="true"
+            android:text="Your Location:   Lat:  000.000000  Long:  000.000000"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</LinearLayout>
